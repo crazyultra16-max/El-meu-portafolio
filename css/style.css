@@ -82,14 +82,14 @@ nav ul li a {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    margin: 0px;
-    padding: 20px;
-    background-color: rgb(167, 15, 255);
-    color: aliceblue;
-    width: 100%;
-    text-align: center;
+	position: fixed;
+	bottom: 0;
+	margin: 0px;
+	padding: 20px;
+	background-color: rgb(167, 15, 255);
+	color: aliceblue;
+	width: 100%;
+	text-align: center;
 }
 
 
@@ -151,4 +151,9 @@ td {
 
 .Tuto {
 	background-color: magenta;
+}
+
+form{ display: grid;
+grid-template-columns: max-content 200px;
+gap:10px;
 }
